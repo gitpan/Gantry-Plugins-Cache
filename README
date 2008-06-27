@@ -1,0 +1,32 @@
+Gantry-Plugins-Cache version 0.01
+=================================
+
+This module provides a caching sub-system fro the Gantry Framework. It 
+supports caching with Cache::FastMmap, Cache::Memcached and Storable.
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Build.PL
+   ./Build
+   ./Build test
+   ./Build install
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+
+  Gantry
+  Storeable
+  Cache::FastMmap
+  Cache::Memcached
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2008 by Kevin L. Esteb
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself, either Perl version 5.8.8 or,
+at your option, any later version of Perl 5 you may have available.
+
